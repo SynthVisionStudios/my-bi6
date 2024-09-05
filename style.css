@@ -80,7 +80,7 @@ h1 {
     display: inline-block;
     border-radius: 50%; /* Ikon bulat */
     padding: 10px;
-    font-size: 2rem; /* Ukuran ikon lebih kecil */
+    font-size: 1rem; /* Ukuran ikon lebih kecil */
     margin: 0 15px; /* Kurangi jarak antar ikon */
     background: rgba(154, 2, 255, 0.459); /* Latar belakang ikon */
     transition: all 0.3s ease; /* Transisi halus untuk hover */

@@ -1,0 +1,135 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background: rgba(154, 2, 255, 0.685); /* Latar belakang ikon */
+    color: #fff; /* Warna teks putih agar kontras */
+    font-family: "Honk", system-ui;
+    font-size: 1.5rem; /* Ukuran font lebih besar */
+}
+
+/* Container styling */
+.container {
+    background: rgba(0, 255, 149, 0.9); /* Latar belakang semi-transparan untuk konten */
+    border-radius: 10px; /* Sudut melengkung pada kontainer */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan kontainer */
+    font-size: 1.2rem; /* Ukuran font lebih besar */
+}
+
+/* Logo styling */
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-img {
+    width: 150px; /* Perbesar ukuran logo */
+    animation: rotate 10s linear infinite; /* Efek rotasi pada logo */
+}
+
+/* Header styling */
+h1 {
+    font-size: 5vw; /* Ukuran font yang responsif */
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Bayangan teks */
+}
+
+/* Links styling */
+.link-btn {
+    border-radius: 55px; /* Sudut tombol melengkung */
+    padding: 20px 15px; /* Kurangi padding untuk perangkat mobile */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease; /* Transisi halus untuk hover */
+    text-decoration: none;
+    color: #00eeff; /* Warna teks tombol */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem; /* Ukuran font lebih kecil */
+    gap: 15px; /* Memberi jarak antara teks dan ikon */
+}
+
+.link-btn img {
+    width: 30px; /* Ukuran ikon yang lebih kecil */
+}
+
+.link-btn:hover {
+    background: #78c2ff; /* Warna latar belakang saat hover */
+    color: #ff0000; /* Warna teks saat hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Bayangan tombol saat hover */
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+/* Social Media Icons styling */
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    border-radius: 50%; /* Ikon bulat */
+    padding: 10px;
+    font-size: 2rem; /* Ukuran ikon lebih kecil */
+    margin: 0 15px; /* Kurangi jarak antar ikon */
+    background: rgba(154, 2, 255, 0.459); /* Latar belakang ikon */
+    transition: all 0.3s ease; /* Transisi halus untuk hover */
+    color: #00e1ff; /* Warna ikon */
+}
+
+.social-icons a:hover {
+    background: rgba(47, 20, 202, 0.678); /* Latar belakang saat hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan ikon saat hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .link-btn {
+        font-size: 1.2rem; /* Ukuran font lebih kecil pada perangkat mobile */
+        padding: 15px 10px; /* Kurangi padding pada perangkat mobile */
+    }
+
+    .social-icons a {
+        font-size: 1.5rem; /* Ukuran ikon lebih kecil */
+        padding: 8px; /* Kurangi padding pada ikon */
+    }
+
+    h1 {
+        font-size: 4.5vw; /* Ukuran font yang responsif */
+    }
+
+    .logo-img {
+        width: 100px; /* Ukuran logo lebih kecil di perangkat mobile */
+    }
+}
+
+/* Extra small devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .link-btn {
+        font-size: 1rem; /* Ukuran font lebih kecil lagi */
+        padding: 10px 5px; /* Kurangi padding lebih banyak */
+    }
+
+    .social-icons a {
+        font-size: 1.2rem; /* Ukuran ikon lebih kecil lagi */
+        padding: 5px; /* Kurangi padding ikon lebih banyak */
+    }
+
+    .logo-img {
+        width: 80px; /* Ukuran logo lebih kecil pada perangkat kecil */
+    }
+
+    h1 {
+        font-size: 5.5vw; /* Ukuran font yang lebih kecil pada perangkat kecil */
+    }
+}

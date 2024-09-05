@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(135deg, #0d0c14, #0d0c14);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pirata One', cursive; /* Menggunakan font Pirata One */
+}
+
+h1 {
+    color: #ff0099;
+    letter-spacing: 2px;
+}
+
+/* Styling untuk logo lingkaran */
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ff0099;
+    object-fit: cover;
+}
+
+.link-btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.link-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #0d0c14, #1c1a29);
+}
+
+/* Social media icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #ff0099;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff0099;
+}
